@@ -23,7 +23,7 @@ projects off the ground.
 Before we continue, it is recommended you run `npm install -g npm`. This will
 make sure you have the newest version of Node Package Manager. Once this is
 installed, you should now have access to `npx`. Instead of having to globally
-install a node package using `npm`, with `npx`, we can provide an node package
+install a node package using `npm`, with `npx`, we can provide a node package
 name as an argument and use remote node packages as though they were installed.
 
 Since you're grabbing the package remotely, you will be getting the most up to
@@ -52,11 +52,11 @@ detailed breakdown of all the additional features that come with
 `create-react-app`.
 
 One feature that is included: a service worker that allows the app to cache page
-data in a users browser. The result? After a user visits your site once, if they
+data in a user's browser. The result? After a user visits your site once, if they
 do not have service, they _can still go to your website and see content_. The
 cache will display what the site looked like the last time the user was there!
 
 While it is perfectly fine to set up your own React files, `create-react-app` is
-a handy solution to quickly get past any set up and get straight to designing
+a handy solution to quickly get past any setup and get straight to designing
 your app. Since it is actively maintained by Facebook, you're also always
 getting a nicely polished, up-to-date base for your React applications!
