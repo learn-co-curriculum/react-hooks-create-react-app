@@ -86,7 +86,10 @@ Here's a quick rundown of what these files/folders are used for:
 - `package.json`: Our project configuration, including npm scripts and our
   project's list of dependencies
 
-Even though our `package.json` only lists a few key dependencies (namely `react`, `react-dom`, and `react-scripts`), Create React App provides a number of other dependencies under the hood that make our lives as developers easier! For example:
+Even though our `package.json` only lists a few key dependencies (namely
+`react`, `react-dom`, and `react-scripts`), Create React App provides a number
+of other dependencies under the hood that make our lives as developers easier!
+For example:
 
 - **Babel**: a *transpiler* for converting modern JavaScript, and JSX, into
   something all browsers can understand (more on that in the next lessons)
@@ -101,10 +104,19 @@ You can find much more detail in the [create-react-app documentation][].
 
 #### Other Tools For Creating React Apps
 
-While Create React App is a great choice for your projects at Flatiron, there are some excellent alternatives that might make sense for other projects you build later on. The [React Docs](https://reactjs.org/docs/create-a-new-react-app.html) list a few of the most popular ones. A couple of highlights:
+While Create React App is a great choice for your projects at Flatiron, there
+are some excellent alternatives that might make sense for other projects you
+build later on. The [React Docs][react-docs-create] list a few of the most popular ones. A couple
+of highlights:
 
-- **Gatsby**: a static-site generator that turns your application into separate pages by building HTML files from JSX components. It's a popular choice for personal blogs, including Dan Abramov's [overreacted](https://github.com/gaearon/overreacted.io)
-- **Next.js**: a framework for creating static and server-side generated React applications. Read more about the differences between Client-Side Rendering and Server-Side Rendering [here](https://developers.google.com/web/updates/2019/02/rendering-on-the-web).
+- **Gatsby**: a static-site generator that turns your application into separate
+  pages by building HTML files from JSX components. It's a popular choice for
+  personal blogs, including Dan Abramov's
+  [overreacted][]
+- **Next.js**: a framework for creating static and server-side generated React
+  applications. Read more about the differences between Client-Side Rendering
+  and Server-Side Rendering
+  [here][csr-ssr].
 
 
 #### Conclusion
@@ -125,3 +137,6 @@ getting a nicely polished, up-to-date base for your React applications!
 - [create-react-app documentation][]
 
 [create-react-app documentation]: https://create-react-app.dev/
+[react-docs-create]: https://reactjs.org/docs/create-a-new-react-app.html
+[overreacted]: https://github.com/gaearon/overreacted.io
+[csr-ssr]: https://developers.google.com/web/updates/2019/02/rendering-on-the-web
