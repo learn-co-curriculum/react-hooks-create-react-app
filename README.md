@@ -4,7 +4,7 @@
 
 So far, through this React course, a basic framework of files has been provided
 in the labs. In order to make React easier to work with, a specific file
-structure and set of *dependencies* is required is required. Having to set all
+structure and set of _dependencies_ is required is required. Having to set all
 that up every time can be a bit of a pain and is also prone to error. On top of
 this, copying and pasting old React projects means you may miss out on the most
 up-to-date React features.
@@ -19,7 +19,7 @@ projects off the ground.
 - Ensure `npm` is updated to utilize newly included `npx` command
 - Review how to create a React app using `create-react-app`
 
-#### Keeping Up To Date
+### Keeping Up To Date
 
 Before we continue, it is recommended you run `npm install -g npm`. This will
 make sure you have the newest version of `npm`. Once this is installed, you
@@ -30,7 +30,7 @@ argument and use remote node packages as though they were installed.
 Since you're grabbing the package remotely, you will be getting the most up to
 date version of it by default!
 
-#### Creating A React App From Scratch
+### Creating A React App From Scratch
 
 In your terminal, navigate to a location where you would like your React app
 directory to be located.
@@ -45,7 +45,7 @@ $ npx create-react-app <your_app_name>
 The `create-react-app` package sets up the basic file structure and runs
 `yarn add` (which is similar to `npm install`) to install the dependencies.
 
-#### Create React App Features
+### Create React App Features
 
 Let's take a tour of some of the key features of our newly created React app.
 Using `create-react-app` version 4 (the latest version at the time of writing),
@@ -91,7 +91,7 @@ Even though our `package.json` only lists a few key dependencies (namely
 of other dependencies under the hood that make our lives as developers easier!
 For example:
 
-- **Babel**: a *transpiler* for converting modern JavaScript, and JSX, into
+- **Babel**: a _transpiler_ for converting modern JavaScript, and JSX, into
   something all browsers can understand (more on that in the next lessons)
 - **Webpack**: an asset manager that bundles and minifies our JavaScript code,
   CSS files, and other assets like images (this is what lets us `import` node
@@ -101,13 +101,12 @@ For example:
 
 You can find much more detail in the [create-react-app documentation][].
 
-
-#### Other Tools For Creating React Apps
+### Other Tools For Creating React Apps
 
 While Create React App is a great choice for your projects at Flatiron, there
 are some excellent alternatives that might make sense for other projects you
-build later on. The [React Docs][react-docs-create] list a few of the most popular ones. A couple
-of highlights:
+build later on. The [React Docs][react-docs-create] list a few of the most
+popular ones. A couple of highlights:
 
 - **Gatsby**: a static-site generator that turns your application into separate
   pages by building HTML files from JSX components. It's a popular choice for
@@ -117,7 +116,6 @@ of highlights:
   applications. Read more about the differences between Client-Side Rendering
   and Server-Side Rendering
   [here][csr-ssr].
-
 
 #### Conclusion
 
@@ -130,7 +128,6 @@ While it is perfectly fine to set up your own React files, `create-react-app` is
 a handy solution to quickly get past any setup and get straight to designing
 your app. Since it is actively maintained by Facebook, you're also always
 getting a nicely polished, up-to-date base for your React applications!
-
 
 ## Resources
 
