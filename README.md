@@ -1,6 +1,10 @@
 # Create React App
 
-## Problem Statement
+## Learning Goals
+
+- Understand how to create a React app using `create-react-app`
+
+## Introduction
 
 So far, through this React course, a basic framework of files has been provided
 in the labs. In order to make React easier to work with, a specific file
@@ -14,12 +18,7 @@ creating the barebones file structure we need for React apps. In this lesson, we
 will be discussing how to use the `create-react-app` node package to get our own
 projects off the ground.
 
-## Objectives
-
-- Ensure `npm` is updated to utilize newly included `npx` command
-- Review how to create a React app using `create-react-app`
-
-### Keeping Up To Date
+## Keeping Up To Date
 
 Before we continue, it is recommended you run `npm install -g npm`. This will
 make sure you have the newest version of `npm`. Once this is installed, you
@@ -30,34 +29,35 @@ argument and use remote node packages as though they were installed.
 Since you're grabbing the package remotely, you will be getting the most up to
 date version of it by default!
 
-### Creating A React App From Scratch
+## Creating A React App From Scratch
 
 In your terminal, navigate to a location where you would like your React app
 directory to be located.
 
 Decide on a name for your app. Once you've got one, run the following with your
-app's name in place of `<your_app_name>`:
+app's name in place of `your-app-name`:
 
 ```sh
-$ npx create-react-app <your_app_name>
+npx create-react-app your-app-name --use-npm
 ```
 
-The `create-react-app` package sets up the basic file structure and runs
-`yarn add` (which is similar to `npm install`) to install the dependencies.
+The `create-react-app` package sets up the basic file structure. Using the
+`--use-npm` flag will also instruct Create React App to run `npm install` to
+install the dependencies.
 
-### Create React App Features
+## Create React App Features
 
 Let's take a tour of some of the key features of our newly created React app.
-Using `create-react-app` version 4 (the latest version at the time of writing),
+Using Create React App version 4 (the latest version at the time of writing),
 our file structure looks like this:
 
-```
-<your_app_name>
+```txt
+your-app-name
 ├── README.md
 ├── node_modules
 ├── package.json
+├── package-lock.json
 ├── .gitignore
-├── yarn.lock
 ├── public
 │   ├── favicon.ico
 │   ├── index.html
@@ -76,15 +76,15 @@ our file structure looks like this:
     └── setupTests.js
 ```
 
-Here's a quick rundown of what these files/folders are used for:
+Here's a quick rundown of what the key files/folders are used for:
 
 - `/public`: Used for static assets, most importantly our `index.html` file. If
   you look at the HTML in this file, you'll see a `<div>` with the ID of "root"
-  &mdash; this is where our React components will go
+  &mdash; this is where our React components will go.
 - `/src`: All our Javascript and CSS code must go in this folder. This is where
   our React components live!
 - `package.json`: Our project configuration, including npm scripts and our
-  project's list of dependencies
+  project's list of dependencies.
 
 Even though our `package.json` only lists a few key dependencies (namely
 `react`, `react-dom`, and `react-scripts`), Create React App provides a number
@@ -101,7 +101,7 @@ For example:
 
 You can find much more detail in the [create-react-app documentation][].
 
-### Other Tools For Creating React Apps
+## Other Tools For Creating React Apps
 
 While Create React App is a great choice for your projects at Flatiron, there
 are some excellent alternatives that might make sense for other projects you
@@ -114,10 +114,9 @@ popular ones. A couple of highlights:
   [overreacted][]
 - **Next.js**: a framework for creating static and server-side generated React
   applications. Read more about the differences between Client-Side Rendering
-  and Server-Side Rendering
-  [here][csr-ssr].
+  and Server-Side Rendering [here][csr-ssr].
 
-#### Conclusion
+## Conclusion
 
 That's it! With Create React App, it's fast and easy to get a React app up and
 running. The app is ready to run with `npm start`, and will display some default
