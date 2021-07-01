@@ -8,7 +8,7 @@
 
 So far, through this React course, a basic framework of files has been provided
 in the labs. In order to make React easier to work with, a specific file
-structure and set of _dependencies_ is required is required. Having to set all
+structure and set of _dependencies_ is required. Having to set all
 that up every time can be a bit of a pain and is also prone to error. On top of
 this, copying and pasting old React projects means you may miss out on the most
 up-to-date React features.
