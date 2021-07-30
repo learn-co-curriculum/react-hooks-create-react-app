@@ -80,7 +80,7 @@ Here's a quick rundown of what the key files/folders are used for:
 
 - `/public`: Used for static assets, most importantly our `index.html` file. If
   you look at the HTML in this file, you'll see a `<div>` with the ID of "root"
-  &mdash; this is where our React components will go.
+  — this is where our React components will go.
 - `/src`: All our Javascript and CSS code must go in this folder. This is where
   our React components live!
 - `package.json`: Our project configuration, including npm scripts and our
@@ -97,7 +97,7 @@ For example:
   CSS files, and other assets like images (this is what lets us `import` node
   modules and CSS files in our JavaScript files!)
 - **ESLint**: a highly customizable tool for checking our code's syntax in the
-  editor &mdash; think of it like a spell checker with superpowers
+  editor — think of it like a spell checker with superpowers
 
 You can find much more detail in the [create-react-app documentation][].
 
