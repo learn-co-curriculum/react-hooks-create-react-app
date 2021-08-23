@@ -37,8 +37,8 @@ directory to be located.
 Decide on a name for your app. Once you've got one, run the following with your
 app's name in place of `your-app-name`:
 
-```sh
-npx create-react-app your-app-name --use-npm
+```console
+$ npx create-react-app your-app-name --use-npm
 ```
 
 The `create-react-app` package sets up the basic file structure. Using the
