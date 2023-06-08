@@ -8,10 +8,10 @@
 
 So far, through this React course, a basic framework of files has been provided
 in the labs. In order to make React easier to work with, a specific file
-structure and set of _dependencies_ is required. Having to set all
-that up every time can be a bit of a pain and is also prone to error. On top of
-this, copying and pasting old React projects means you may miss out on the most
-up-to-date React features.
+structure and set of _dependencies_ is required. Having to set all that up every
+time can be a bit of a pain and is also prone to error. On top of this, copying
+and pasting old React projects means you may miss out on the most up-to-date
+React features.
 
 Fortunately, the creators of React have also set up a handy tool for rapidly
 creating the barebones file structure we need for React apps. In this lesson, we
@@ -101,20 +101,34 @@ For example:
 
 You can find much more detail in the [create-react-app documentation][].
 
-## Other Tools For Creating React Apps
+## Create React App Alternatives
 
-While Create React App is a great choice for your projects at Flatiron, there
-are some excellent alternatives that might make sense for other projects you
-build later on. The [React Docs][react-docs-create] list a few of the most
-popular ones. A couple of highlights:
+Although the new React docs recommend frameworks like Next.js and Remix, we
+recommend that you continue using Create React App since those frameworks
+require you to already know React fundamentals and API development principles.
+Once you’ve completed Phase 4, you will have the fundamental concepts required
+to learn new frameworks.
 
-- **Gatsby**: a static-site generator that turns your application into separate
-  pages by building HTML files from JSX components. It's a popular choice for
-  personal blogs, including Dan Abramov's
-  [overreacted][]
-- **Next.js**: a framework for creating static and server-side generated React
-  applications. Read more about the differences between Client-Side Rendering
-  and Server-Side Rendering [here][csr-ssr].
+If you want to use a tool that is similar to CRA after you’ve completed our
+course, we recommend using [Vite](https://vitejs.dev/). It manages the
+complexities of setting up a React app just like CRA while adding features like
+universal plugins, configs for vanilla setups or other frameworks, hot module
+replacement.
+
+## When to Use Meta-Frameworks?
+
+Frameworks like Next.js and Remix are called meta-frameworks since they are
+built on top of an existing framework like React.
+
+Next.js is likely the most popular one at the moment. It provides several
+advanced features such as built-in routing, different rendering techniques based
+on routing, data fetching systems. All of this can make development a lot
+easier. But in order to understand and use these features properly, you need to
+understand the core principles of both front end and back end development.
+
+This is why we recommend students try these out after graduating from the
+program or for their capstone project if they feel comfortable with configuring
+these tools.
 
 ## Conclusion
 
@@ -135,4 +149,5 @@ getting a nicely polished, up-to-date base for your React applications!
 [create-react-app documentation]: https://create-react-app.dev/
 [react-docs-create]: https://reactjs.org/docs/create-a-new-react-app.html
 [overreacted]: https://github.com/gaearon/overreacted.io
-[csr-ssr]: https://developers.google.com/web/updates/2019/02/rendering-on-the-web
+[csr-ssr]:
+  https://developers.google.com/web/updates/2019/02/rendering-on-the-web
