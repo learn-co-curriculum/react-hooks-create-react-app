@@ -17,6 +17,7 @@ Fortunately, the creators of React have also set up a handy tool for rapidly
 creating the barebones file structure we need for React apps. In this lesson, we
 will be discussing how to use the `create-react-app` node package to get our own
 projects off the ground.
+## Notes
 
 ## Keeping Up To Date
 
