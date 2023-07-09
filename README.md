@@ -115,6 +115,8 @@ popular ones. A couple of highlights:
 - **Next.js**: a framework for creating static and server-side generated React
   applications. Read more about the differences between Client-Side Rendering
   and Server-Side Rendering [here][csr-ssr].
+## Notes
+
 
 ## Conclusion
 
